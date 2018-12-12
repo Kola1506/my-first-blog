@@ -1,0 +1,18 @@
+#qw {
+	background-image: 	url("00001.jpg");
+
+}
+*{
+	background-color:#4C048A;
+
+	
+}
+#xxx{
+	margin-top: 200px;
+	border: 3px  outset #AB0BA1;
+	border-radius: 20px;
+	margin-left: 550px;
+	height: 600px;
+	width: 800px;
+	padding: 10px;
+}

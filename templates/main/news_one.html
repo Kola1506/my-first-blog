@@ -1,0 +1,74 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<link rel="stylesheet" type="text/css" href="{% static '0102.css' %}">
+	<script src="rotor.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"> </script>
+	<script type="text/javascript">
+
+		$(document).ready (function () {
+			$("#button").click ( setTimeout( function () {
+				$("#req").show(1000);
+				$("#button").hide(1000);
+			} , 4000)
+			 );
+		});
+	</script>
+
+</head>
+<body>
+
+
+<div id="qw">
+	<div id="menu">
+		Hi spase!
+	</div>
+
+	<header>
+		<div id="ramka1">
+			<div id="ramka2">
+			<a href= "http://127.0.0.1:8000/main/" class="ffa" style="color: black;text-decoration: none;"> Главная </a>
+			<a href="http://127.0.0.1:8000/mission/" class="ffa" style="color: black;text-decoration: none;">Действующие Миссии</a>
+			<a href="http://127.0.0.1:8000/history/" class="ffa" style="color: black;text-decoration: none;">История космонавтики </a>
+			<a href="http://127.0.0.1:8000/galery/" class="ffa" style="color: black;text-decoration: none;">Фотогалерея</a>
+			</div>
+		</div>
+	</header>
+
+<article>
+		<div id="mens">
+			<h3 style="background-color:#7A87EF; margin-top: 2px;">Количество космического мусора достигло рекордных отметок</h3>
+			<span style="background-color: #7A87EF;font-size: 20px; ">
+				Проблема засорения околоземного космического пространства «космическим мусором» как чисто теоретическая возникла по существу сразу после запусков первых искусственных спутников Земли в конце пятидесятых годов. Официальный статус на международном уровне она получила после доклада Генерального секретаря ООН под названием «Воздействие космической деятельности на окружающую среду» 10 декабря 1993 г., где особо отмечено, что проблема имеет международный, глобальный характер: нет засорения национального околоземного космического пространства, есть засорение космического пространства Земли, одинаково негативно влияющее на все страны.<br>
+				<br><img id="req" style="display: none; border: 2px outset yellow;" src="{% static 'jard.jpg' %}">
+				<br><button align = "center" id="button" style="background-color: #ff449b"><b style="background-color: #ff449b"> Загрузить график</b>
+				</button><br>
+				Необходимость мер по уменьшению интенсивности техногенного засорения космоса становится понятной при рассмотрении возможных сценариев освоения космоса в будущем. Существует так называемый «каскадный эффект», который в среднесрочной перспективе может возникнуть от взаимного столкновения объектов и частиц «космического мусора». При экстраполяции существующих условий засорения низких околоземных орбит (НОО), даже с учетом мер по снижению в будущем числа орбитальных взрывов (42 % всего космического мусора) и других мероприятий по уменьшению техногенного засорения, этот эффект может в долгосрочной перспективе привести к катастрофическому росту количества объектов орбитального мусора на НОО и, как следствие, к практической невозможности дальнейшего освоения космоса. Предполагается, что «после 2055 года процесс саморазмножения остатков космической деятельности человечества станет серьёзной проблемой»
+
+
+
+
+			</span>
+		</div>
+
+
+	</article>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+</body>
+</html>

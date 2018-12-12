@@ -1,0 +1,154 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static '01reg.css' %}">
+</head>
+<body>
+	<div id="qw">
+		<br>
+		<div id="xxx">
+
+
+				<h1>
+					     <style>
+    td select,
+    td input {
+      width: 150px;
+    }
+
+    label {
+      display: block;
+    }
+
+    .error input,
+    .error textarea {
+      border: 1px solid red;
+    }
+
+    .error {
+      color: red;
+    }
+    main{
+      height: 350px;
+    }
+  </style>
+
+   <div>
+
+  <main >
+
+   <p style="font-size: 30PX;color:#87FF24;">Реєстрація</p>
+        <form>
+  <table>
+      <tr>
+        <td>*Ведіть ваше ім'я:</td>
+        <td>
+          <input name="text" type="text" placeholder="П.І">
+        </td>
+      </tr>
+      <tr>
+        <td>Ведіть ваш рік народження:</td>
+        <td>
+          <input name="number" type="number"  placeholder="Рік">
+        </td>
+      </tr>
+      <tr>
+        <td>*Ведіть ваш E-mail:</td>
+        <td>
+          <input name="email" type="email"  placeholder="E-mail">
+        </td>
+      </tr>
+      <tr>
+        <td>*Придумайте пароль:</td>
+        <td>
+          <input name="password" type="password" placeholder="Введіть пароль">
+        </td>
+      </tr>
+      <tr>
+        <td>Введіть пароль ще раз:</td>
+        <td>
+          <input name="password2" type="password"  placeholder="Введіть пароль">
+        </td>
+      </tr>
+      <tr>
+        <td>Стать:</td>
+        <td>
+          <select name="to" placeholder="Повторіть пароль">
+            <option value="1">Не вказано</option>
+            <option value="2">Чоловіча</option>
+            <option value="3">Жіноча</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <input type="buttom" onclick="validate(this.form)" value="Відправити">
+</form>
+
+</main>
+ </div>
+
+ <script type="text/javascript">
+
+ function showError(container, errorMessage) {
+      container.className = 'error';
+      var msgElem = document.createElement('span');
+      msgElem.className = "error-message";
+      msgElem.innerHTML = errorMessage;
+      container.appendChild(msgElem);
+    }
+
+    function resetError(container) {
+      container.className = '';
+      if (container.lastChild.className == "error-message") {
+        container.removeChild(container.lastChild);
+      }
+    }
+    function validate(form) {
+      var elems = form.elements;
+
+      resetError(elems.number.parentNode);
+      if (elems.number.value>2018) {
+        showError(elems.number.parentNode, "Невірно введений рік народження ");
+      }
+      else if (elems.number.value<1918) {
+        showError(elems.number.parentNode, "Невірно введений рік народження ");
+      }
+
+
+      resetError(elems.text.parentNode);
+      if (!elems.text.value) {
+        showError(elems.text.parentNode, "Відсутнє ім'я ");
+      }
+
+      resetError(elems.email.parentNode);
+      if (!elems.email.value) {
+        showError(elems.email.parentNode, "Відсутній email");
+      }
+
+
+      resetError(elems.password.parentNode);
+      if (!elems.password.value) {
+        showError(elems.password.parentNode, ' Вкажіть пароль');
+      } else if (elems.password.value != elems.password2.value) {
+        showError(elems.password.parentNode, ' Паролі не зівпадають');
+      }
+
+
+      }
+
+
+
+ </script>
+
+
+
+				</h1>
+
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+
+</body>
+</html>

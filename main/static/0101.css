@@ -1,0 +1,152 @@
+*{
+	background-color:#4C048A;
+
+}
+#menu{
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+	border: 3px  outset #AB0BA1;
+	border-radius: 20px;
+	background-color: red;
+	font-weight: bold;
+	font-size: 25px;
+	height: 30px;
+	width: 200px;
+	margin-left: 60px;
+	float: left;
+}
+header{
+	margin-top: 10px;
+	border-radius: 40px;
+	height: 125px;
+	width: 1750px;
+	border: 5px outset red;
+	padding: 10px;
+	margin-left: 30px;
+
+
+}
+#ramka1{padding: 10px;
+
+	color:black;
+	font-weight: bold;
+}
+#ramka2{padding: 10px;
+
+	width: 1700px;
+	height: 80px;
+	border: 1px outset red;
+	border-radius: 10px;
+	background-color: red;
+}
+.ffa{padding: 10px;
+
+	font-size: 35px;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	margin-left: 120px;
+	background-color: red;
+
+}
+article{padding: 10px;
+
+	margin-left: 60px;
+	margin-top: 50px;
+	width: 1700px;
+	height: 650px;
+	border: 3px outset yellow;
+	border-radius: 30px;
+}
+#news{
+
+	margin-left: 10px;
+	font-size: 35px;
+	border:2px outset black;
+	padding: 5px;
+	width: 60%;
+	height: 400px;
+	margin-top:8px;
+	background-color:#3341DB;
+	float: left;
+	font-weight: bold;
+}
+#calendar{
+	font-size: 35px;
+	background-color: #3341DB;
+	border:2px outset black;
+	padding: 5px;
+	float: left;
+	width: 37%;
+	height: 400px;
+	margin-top:8px;
+	font-weight: bold;
+}
+#foto{
+	margin-left: 10px;
+	font-size: 35px;
+	background-color: #3341DB;
+	border:2px outset black;
+	padding: 5px;
+	float: left;
+	height: 200px;
+	width: 60%;
+	font-weight: bold;
+}
+#On-line{
+	font-size: 35px;
+	background-color: #3341DB;
+	border:2px outset black;
+	padding: 5px;
+	float: left;
+	width: 37%;
+	height: 200px;
+	font-weight: bold;
+}
+#rols{
+	background-color:#3341DB;
+	padding: 10px;
+	margin-top: 10px;
+	height: 300px;
+	width: 950px;
+	margin-left: 25px;
+	border:4px outset yellow;
+	border-radius: 15px;
+	overflow:auto;
+}
+
+.imag , .img , .var1 , .fon{
+	background-color: #3341DB;
+	float: left;
+	padding: 10px;
+
+}
+.var1{padding: 10px;
+	color: black;
+	font-size: 35px;
+	width: 600px;
+	height: 160px;
+}
+#jas{padding: 10px;
+
+	width: 400px;
+	height: 30px;
+}
+#iss{
+	background-color:#3341DB;
+	padding: 5px;
+
+	width: 200px;
+	height: 500px;
+	margin-left: 200px;
+}
+#isso{padding: 10px;
+
+	border-color: red;
+	background-color:#3341DB;
+}
+#qw {
+	background: 	url("00001.jpg" ) ;
+
+}

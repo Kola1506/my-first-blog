@@ -1,0 +1,68 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Hi_spase!</title>
+	<link rel="stylesheet" type="text/css" href="{% static '0101.css' %}">
+</head>
+
+
+
+<body>
+<div id="qw">
+	<div id="menu">
+		Hi spase!
+	</div>
+
+	<a href="http://127.0.0.1:8000/registrations/" style="float: right;color: yellow;font-size: 25px;border: 3px  outset #AB0BA1;border-radius: 20px;text-decoration: none;margin-top: 14px;margin-right: 60px;" >Регистрация</a>
+
+	<br><br><br>
+	<header>
+		<div id="ramka1">
+			<div id="ramka2">
+		    <a href= "http://127.0.0.1:8000/main/" class="ffa" style="color: black;"> Главная </a>
+			<a href="http://127.0.0.1:8000/mission/" class="ffa" style="color: black;text-decoration: none;">Действующие Миссии</a>
+			<a href="http://127.0.0.1:8000/history/" class="ffa" style="color: black;text-decoration: none;">История космонавтики </a>
+			<a href="http://127.0.0.1:8000/galery/" class="ffa" style="color: black;text-decoration: none;">Фотогалерея</a>
+			</div>
+		</div>
+	</header>
+
+	<article>
+		<div id="news">Новости недели
+			<div id="rols">
+				<img class="imag" src="{% static 'junk.jpg' %}"  width="30%" height="50%" border="1px">
+				<a href="http://127.0.0.1:8000/news/one"><div class="var1">Количество космического мусора достигло рекордных отметок</div></a>
+				<img class="imag" src="{% static 'news/03.jpg' %}" width="30%" height="50%" border="1px">
+				<div class="var1">Миссия Хаябуса-2 приблизилась к астероиду Рюго.</div>
+				<img class="imag" src="{% static 'news/01.jpg' %}" width="30%" height="50%" border="1px">
+				<div class="var1">Новые научные данные с аппарата Juno.</div>
+				<img class="imag" src="{% static 'news/02.jpg' %}" width="30%" height="50%" border="1px">
+				<div class="var1">Запуск миссии Tess по поиску экзопланет.</div>
+			</div>
+		</div>
+
+
+		<div id="calendar">Календарь событий
+			<a href="https://thealphacentauri.net/schedule/" style="background-color: #3341DB;"><img class="imag" src="{% static 'foton/calendar-october-2018-72ms.jpg' %}" width="80%" height="79%" border="1px" ></a>
+		</div>
+
+
+		<div id="foto"><div id="jas" style="background-color: #3341DB;">Астрофото недели</div>
+			<img class="imag" src="{% static 'foton/Mlechnyiy-put1.jpg' %}" width="30%" height="60%" border="1px">
+			<img class="imag" src="{% static 'foton/1531215288_24296312_jpg_770x380_q85_crop-0h.jpg' %}" width="30%" height="60%" border="1px">
+			<img class="imag" src="{% static 'foton/1200px-NGC7293_(2004).jpg' %}" width="30%" height="60%" border="1px">
+
+		</div>
+		<div id="On-line"><div id="jas" style="background-color: #3341DB;">On-line трансляция с МКС</div>
+			<a id="iss" href="https://www.youtube.com/watch?v=qnTsIVYxYkc"><img id="isso" src="{% static 'foton/MKS_onlain.jpg' %} " width="30%" height="50%" border="7px"> </a>
+		</div>
+
+	</article>
+<br>
+	<br><br>
+	<br>
+	<br>
+</div>
+</body>
+</html>

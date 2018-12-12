@@ -1,0 +1,83 @@
+*{
+	background-color:#4C048A;
+	
+}
+#menu{
+	padding: 5px;
+	text-align: center;
+	border: 3px  outset #AB0BA1;
+	border-radius: 20px;
+	background-color: red;
+	font-weight: bold;
+	font-size: 25px;
+	height: 30px;
+	width: 200px;
+	margin-left: 40px;
+}
+header{
+	margin-top: 10px;
+	border-radius: 40px;
+	height: 125px;
+	width: 1750px;
+	border: 5px outset red;
+	padding: 10px;
+		margin-left: 30px;
+	
+}
+#ramka1{
+	padding: 10px;
+	color:black;
+	font-weight: bold;
+}
+#ramka2{
+	padding: 10px;
+	width: 1700px;
+	height: 80px;
+	border: 1px outset red;
+	border-radius: 10px;
+	background-color: red;
+}
+.ffa{
+	padding: 10px;
+	font-size: 35px;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	margin-left: 120px;
+	background-color: red;
+}
+article{
+	padding: 10px;
+	margin-left: 60px;
+	margin-top: 50px;
+	width: 1700px;
+	height: 630px;
+	border: 3px outset yellow;
+	border-radius: 30px;
+}
+#mens{
+	font-size: 35px;
+	background-color:#7A87EF;
+	border:2px outset black;
+	padding: 5px;
+	float: left;
+	width: 97%;
+	height: 600px;
+	margin-top:5px;
+	font-weight: bold;
+	margin-left: 5px;	
+	overflow:auto;
+}
+#tabs{
+	margin-left: 20px;
+	background-color: #3341DB;
+	font-size:27px;
+	padding: 10px;
+}
+li , ul{padding: 10px;
+	background-color: #3341DB;
+}
+#qw {
+	background: 	url("00001.jpg");
+
+}
